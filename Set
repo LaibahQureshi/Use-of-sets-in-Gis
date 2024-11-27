@@ -1,0 +1,7 @@
+List of coordinates with duplicates
+coordinates = {(40.7128, -74.0060), (34.0522, -118.2437),(51.5074, -0.1278)}
+coordinates.add((90.9090009,89.9909))
+print(coordinates)
+Convert to a set to remove duplicates
+unique_coordinates = set(coordinates)
+print(unique_coordinates)
